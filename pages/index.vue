@@ -1,15 +1,23 @@
 <script setup lang="ts">
-import { useTasks } from "~/composables/useTasks"
+import { type Task, useTasks } from "~/composables/useTasks"
 
-const { deleteTask, tasks } = useTasks()
+const { doneTask, addTask, clearTasks, tasks, tasksDone } = useTasks()
 
-const handleTaskDelete = () => {
-  deleteTask()
+const handleDoneTask = (task: Task) => {
+  doneTask(task)
+}
+
+const handAddTask = () => {
+  addTask()
+}
+
+const handleClearTasks = () => {
+  clearTasks()
 }
 
 </script>
 
 <template>
-  <TasksDone :tasks="tasks" />
-  <Tasks :tasks="tasks" @delete-task="handleTaskDelete" />
+  <FeaturesTasksDone :tasks="tasksDone"></FeaturesTasksDone>
+  <FeaturesTasks :tasks="tasks" @done-task="handleDoneTask" @add-task="handAddTask" @clear-tasks="handleClearTasks"></FeaturesTasks>
 </template>

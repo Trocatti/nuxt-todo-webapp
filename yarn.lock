@@ -848,7 +848,7 @@
     which "^3.0.1"
     ws "^8.16.0"
 
-"@nuxt/kit@3.10.1", "@nuxt/kit@^3.8.2", "@nuxt/kit@^3.9.0", "@nuxt/kit@^3.9.1":
+"@nuxt/kit@3.10.1", "@nuxt/kit@^3.7.3", "@nuxt/kit@^3.8.2", "@nuxt/kit@^3.9.0", "@nuxt/kit@^3.9.1":
   version "3.10.1"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.10.1.tgz"
   integrity sha512-M9VRY0QGbG6lWOVqt69ZF96RLBUZVXyFpbBUwHnoHgjF9BXSX/MT/hrZcJicN4aPM2QRephGgsBd4U5wFmmn6g==
@@ -3607,6 +3607,11 @@ nanoid@^4.0.2:
   resolved "https://registry.npmjs.org/nanoid/-/nanoid-4.0.2.tgz"
   integrity sha512-7ZtY5KTCNheRGfEFxnedV5zFiORN1+Y1N6zvPTnHQd8ENUvfaDBeuJDZb2bN/oXwXxu3qkTXDzy57W5vAmDTBw==
 
+nanoid@^5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-5.0.5.tgz#5112efb5c0caf4fc80680d66d303c65233a79fdd"
+  integrity sha512-/Veqm+QKsyMY3kqi4faWplnY1u+VuKO3dD2binyPIybP31DRO29bPF+1mszgLnrR2KqSLceFLBNw0zmvDzN1QQ==
+
 napi-wasm@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/napi-wasm/-/napi-wasm-1.1.0.tgz"
@@ -3875,6 +3880,14 @@ nuxt-icon@^0.6.8:
     "@iconify/vue" "^4.1.1"
     "@nuxt/devtools-kit" "^1.0.6"
     "@nuxt/kit" "^3.9.0"
+
+nuxt-primevue@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/nuxt-primevue/-/nuxt-primevue-0.3.0.tgz#cee8714bae7cc4ae707f47290bd9ec53a42ecb15"
+  integrity sha512-sx5JZjqQ7H96FH5nWsL4Ypk4amkUz5nHsoxAiyc7oI3sSP54wfXPo5rjB4GKI50Ky7HPdE2CIWs137jRl6RkMw==
+  dependencies:
+    "@nuxt/kit" "^3.7.3"
+    primevue "~3.48.1"
 
 nuxt@^3.10.1:
   version "3.10.1"
@@ -4406,6 +4419,16 @@ pretty-bytes@^6.1.1:
   version "6.1.1"
   resolved "https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-6.1.1.tgz"
   integrity sha512-mQUvGU6aUFQ+rNvTIAcZuWGRT9a6f6Yrg9bHs4ImKF+HZCEK+plBvnAZYSIQztknZF2qnzNtr6F8s0+IuptdlQ==
+
+primeicons@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/primeicons/-/primeicons-6.0.1.tgz#431fa7c79825934eefd62087d8e1faa6a9e376ad"
+  integrity sha512-KDeO94CbWI4pKsPnYpA1FPjo79EsY9I+M8ywoPBSf9XMXoe/0crjbUK7jcQEDHuc0ZMRIZsxH3TYLv4TUtHmAA==
+
+primevue@~3.48.1:
+  version "3.48.1"
+  resolved "https://registry.yarnpkg.com/primevue/-/primevue-3.48.1.tgz#f7c5d449d233668f15cb0ffaa38ad40bdeca1034"
+  integrity sha512-lyJ+E0ZCv2pR9jIpdPLBysU8zB2hOKrN7q78orloWelPx05zSYoMVKAWaqKTHNpunD52xffjaqovt1y6B/9XoQ==
 
 proc-log@^3.0.0:
   version "3.0.0"
